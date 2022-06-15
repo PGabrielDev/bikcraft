@@ -130,3 +130,29 @@ img {
   height: 100%;
   object-fit: cover;
 }
+@media (max-width: 800px) {
+  .introducao-bg {
+    background-color: #111;
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 0 10px;
+  }
+  .introducao h1 {
+    font-size: 32px;
+  }
+  .introducao p {
+    font-size: 18px;
+  }
+  .introducao a {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+  .introducao img {
+    height: 300px;
+    width: 100%;
+  }
+  .introducao-conteudo {
+    padding: 20px;
+  }
+}
