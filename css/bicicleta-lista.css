@@ -1,0 +1,41 @@
+.lista-bikes {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.lista-bikes h2 {
+  margin-bottom: 40px;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lista-bikes ul {
+  display: flex;
+  gap: 20px;
+}
+.lista-bikes img {
+  margin-bottom: 16px;
+}
+.lista-bikes a {
+  display: inline-block;
+}
+.lista-bikes h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.lista-bikes h3::before {
+  content: "";
+  display: inline-block;
+  margin-right: 8px;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+}
+.lista-bikes li span {
+  padding-left: 20px;
+}

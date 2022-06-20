@@ -1,6 +1,7 @@
 @import "global/global.css";
+@import "utils/tipografia.css";
+@import "utils/cores.css";
 @import "global/header.css";
 @import "indroducao.css";
 @import "utils/components.css";
-@import "utils/tipografia.css";
-@import "utils/cores.css";
+@import "bicicleta-lista.css";
