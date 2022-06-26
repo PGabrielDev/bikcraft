@@ -13,3 +13,12 @@
 .botao:hover {
   background: linear-gradient(180deg, #ffb60d 0%, #e59317 100%);
 }
+
+.container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}

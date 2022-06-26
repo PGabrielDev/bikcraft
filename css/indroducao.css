@@ -7,11 +7,7 @@
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0px 20px;
-  margin: 0 auto;
   gap: 0px 20px;
-  max-width: 1200px;
-  box-sizing: border-box;
 }
 
 .introducao h1 {
