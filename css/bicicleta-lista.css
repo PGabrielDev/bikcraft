@@ -16,6 +16,11 @@
 .lista-bikes ul {
   display: flex;
   gap: 20px;
+  overflow-x: auto;
+  padding: 0 20px 20px 20px;
+}
+.lista-bikes li {
+  min-width: 280px;
 }
 .lista-bikes img {
   margin-bottom: 16px;
@@ -34,8 +39,20 @@
   margin-right: 8px;
   width: 12px;
   height: 8px;
+  transition: 0.2s;
   background-color: var(--cor-p1);
+}
+.lista-bikes a:hover h3::before {
+  width: 20px;
 }
 .lista-bikes li span {
   padding-left: 20px;
+}
+@media (max-width: 700px) {
+  .lista-bikes {
+    padding-bottom: 60px;
+  }
+  .lista-bikes ul {
+    gap: 10px;
+  }
 }
