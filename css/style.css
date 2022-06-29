@@ -2,7 +2,8 @@
 @import "utils/tipografia.css";
 @import "utils/cores.css";
 @import "global/header.css";
-@import "indroducao.css";
+@import "home/indroducao.css";
 @import "utils/components.css";
-@import "bicicleta-lista.css";
-@import "tecnologias.css";
+@import "home/bicicleta-lista.css";
+@import "home/tecnologias.css";
+@import "home/parceiros.css";
