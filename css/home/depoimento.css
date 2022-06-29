@@ -1,0 +1,12 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cor-p1);
+}
+.depoimento img {
+  border-radius: 0;
+}
+.depoimento-conteudo {
+  align-self: end;
+  padding: 40px 40px 80px 80px;
+}
